@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "canvas-csci493": {
+      "command": "canvas-mcp",
+      "args": ["serve"],
+      "env": {
+        "CANVAS_BASE_URL": "https://yourschool.instructure.com",
+        "CANVAS_DEFAULT_COURSE_ID": "12345"
+      }
+    },
+    "canvas-csci101": {
+      "command": "canvas-mcp",
+      "args": ["serve"],
+      "env": {
+        "CANVAS_BASE_URL": "https://yourschool.instructure.com",
+        "CANVAS_DEFAULT_COURSE_ID": "12346",
+        "CANVAS_ENABLE_WRITES": "0"
+      }
+    }
+  }
+}

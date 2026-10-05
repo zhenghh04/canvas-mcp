@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "canvas": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/zhenghh04/canvas-mcp",
+        "canvas-mcp",
+        "serve"
+      ],
+      "env": {
+        "CANVAS_BASE_URL": "https://yourschool.instructure.com",
+        "CANVAS_DEFAULT_COURSE_ID": "12345"
+      }
+    }
+  }
+}

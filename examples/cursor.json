@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "canvas": {
+      "command": "canvas-mcp",
+      "args": ["serve"],
+      "env": {
+        "CANVAS_BASE_URL": "https://yourschool.instructure.com",
+        "CANVAS_DEFAULT_COURSE_ID": "12345"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+# Credentials — never commit these. The whole point of .env is that it stays local.
+.env
+.env.*
+# The annotated template is `env.example` (no leading dot) and IS tracked.
+
+# Student data. canvas_download_submissions writes real coursework here.
+canvas-downloads/
+downloads/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Tooling
+.pytest_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.tox/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
