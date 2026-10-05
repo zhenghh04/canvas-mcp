@@ -22,7 +22,11 @@ classifiers = [
   "Topic :: Education",
 ]
 dependencies = [
-  "mcp>=1.2.0",
+  # Upper-bounded deliberately. mcp 2.x renamed FastMCP to MCPServer and changed
+  # the registration API, so an unpinned install resolves to 2.x and fails at
+  # import. Lifting this bound means porting registry.py and server.py, not
+  # just relaxing the specifier.
+  "mcp>=1.2,<2",
   "requests>=2.31",
 ]
 
